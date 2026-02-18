@@ -1,0 +1,17 @@
+{
+  "name": "opencircom-foundry-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "setup:zk": "bash scripts/setup_zk.sh",
+    "generate:proof": "node scripts/generate_proof.js",
+    "compile:circuits": "bash scripts/compile_circuits.sh",
+    "test": "npm run compile:circuits && npm run setup:zk && npm run generate:proof && forge test"
+  },
+  "dependencies": {
+    "opencircom": "^0.1.0"
+  },
+  "devDependencies": {
+    "circomlibjs": "^0.1.7",
+    "snarkjs": "^0.7.5"
+  }
+}
