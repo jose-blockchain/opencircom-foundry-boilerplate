@@ -8,7 +8,7 @@
     "test": "npm run compile:circuits && npm run setup:zk && npm run generate:proof && forge test"
   },
   "dependencies": {
-    "opencircom": "^0.1.0"
+    "opencircom": "^0.2.0"
   },
   "devDependencies": {
     "circomlibjs": "^0.1.7",
