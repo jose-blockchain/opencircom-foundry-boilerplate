@@ -36,6 +36,10 @@ The first `npm test` runs the full ZK setup and can take about a minute.
 - `src/PoseidonProofGateway.sol` — Example contract that calls the verifier; stores last verified hash on successful `submitProof(...)`.
 - `test/HelloHash.t.sol` — Forge tests: direct verifier check and gateway `submitProof` + `lastVerifiedHash` assertion.
 
+## Bug Bounty Program
+
+See [BOUNTY.md](BOUNTY.md) for details on our Bug Bounty and Feature Request Program.
+
 ## License
 
 MIT
