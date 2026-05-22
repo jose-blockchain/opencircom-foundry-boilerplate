@@ -1,14 +1,16 @@
 {
   "name": "opencircom-foundry-boilerplate",
-  "version": "0.4.0",
+  "version": "0.7.0",
   "scripts": {
     "setup:zk": "bash scripts/setup_zk.sh",
     "generate:proof": "node scripts/generate_proof.js",
     "compile:circuits": "bash scripts/compile_circuits.sh",
-    "test": "npm run compile:circuits && npm run setup:zk && npm run generate:proof && forge test"
+    "compile": "npm run compile:circuits && forge build",
+    "test": "npm run compile:circuits && npm run setup:zk && npm run generate:proof && forge test",
+    "clean": "rm -rf build out cache"
   },
   "dependencies": {
-    "opencircom": "^0.4.0"
+    "opencircom": "^0.7.0"
   },
   "devDependencies": {
     "circomlibjs": "^0.1.7",

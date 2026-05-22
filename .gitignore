@@ -1,9 +1,21 @@
+# Dependencies
 node_modules/
+
+# Circom / snarkjs artifacts (ptau, zkey, r1cs, wasm, proof.json)
 build/
+
+# Foundry
 out/
 cache/
+broadcast/
+
+# Environment
 .env
 .env.*
+
+# Logs / backups
 *.log
 *.bak
+
+# OS
 .DS_Store
