@@ -40,6 +40,8 @@ git submodule update --init --recursive
 
 The first `npm test` runs trusted-setup generation and can take about a minute. Generated artifacts under `build/` are gitignored.
 
+If setup or tests fail, see [Troubleshooting](TROUBLESHOOTING.md) for recovery steps.
+
 ## Layout
 
 | Path | Role |
