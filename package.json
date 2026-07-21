@@ -1,6 +1,6 @@
 {
   "name": "opencircom-foundry-boilerplate",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "scripts": {
     "setup:zk": "bash scripts/setup_zk.sh",
     "generate:proof": "node scripts/generate_proof.js",
@@ -10,7 +10,7 @@
     "clean": "rm -rf build out cache"
   },
   "dependencies": {
-    "opencircom": "^0.7.0"
+    "opencircom": "^0.8.0"
   },
   "devDependencies": {
     "circomlibjs": "^0.1.7",

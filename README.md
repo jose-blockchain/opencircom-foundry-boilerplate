@@ -1,6 +1,6 @@
 # opencircom-foundry-boilerplate
 
-Minimal [Foundry](https://book.getfoundry.sh/) project that compiles a Circom ZK circuit using [opencircom](https://www.npmjs.com/package/opencircom) (`^0.7.0`) and verifies a Groth16 proof on-chain.
+Minimal [Foundry](https://book.getfoundry.sh/) project that compiles a Circom ZK circuit using [opencircom](https://www.npmjs.com/package/opencircom) (`^0.8.0`) and verifies a Groth16 proof on-chain.
 
 Example circuit: prove `out = Poseidon(a, b)` and verify the proof in Solidity.
 
